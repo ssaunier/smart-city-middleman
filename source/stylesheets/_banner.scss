@@ -1,0 +1,23 @@
+.static-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("/images/background.png");
+  background-size: cover;
+  z-index: -1;
+}
+
+.banner_overlay {
+  position: fixed;
+  display: flex;
+  img {
+    height: 250px;
+    transform: rotate(0deg);
+    transition: transform 500ms ease;
+    &:hover {
+      transform: rotate(-5deg);
+    }
+  }
+}
