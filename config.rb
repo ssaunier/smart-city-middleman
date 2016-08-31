@@ -38,7 +38,7 @@ activate :sprockets
 
 # Build-specific configuration
 configure :build do
-  config[:host] = "https://datene.github.io/smart-city-middleman/"
+  set :http_prefix, "/smart-city-middleman"
   # Minify CSS on build
   # activate :minify_css
 
