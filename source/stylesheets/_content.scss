@@ -53,7 +53,7 @@ $blue: #bce6f7;
 }
 
 .content {
-  h2 {
+  h2, h1 {
     text-align: center;
   }
   background: white;
@@ -78,21 +78,43 @@ $blue: #bce6f7;
     }
   }
 }
-
-.logos {
-  background: white;
-  padding: 35px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  img {
-    width: 200px;
+@media (max-width: 1300px) {
+  .logos {
+    background: white;
+    padding: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    img {
+      width: 200px;
+    }
+    a {
+      transform: scale(1);
+      transition: transform 200ms ease;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
   }
-  a {
-    transform: scale(1);
-    transition: transform 200ms ease;
-    &:hover {
-      transform: scale(1.1);
+}
+
+@media (max-width: 800px) {
+  .logos {
+    background: white;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    img {
+      width: 200px;
+    }
+    a {
+      transform: scale(1);
+      transition: transform 200ms ease;
+      &:hover {
+        transform: scale(1.1);
+      }
     }
   }
 }
