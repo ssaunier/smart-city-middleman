@@ -421,6 +421,17 @@ textarea {
 .hidden {
   display: none; }
 
+.language-select {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px; }
+  .language-select img {
+    width: 50px; }
+
 .static-background {
   position: fixed;
   top: 0;
@@ -431,16 +442,26 @@ textarea {
   background-size: cover;
   z-index: -1; }
 
-.banner_overlay {
-  position: fixed;
-  display: flex; }
-  .banner_overlay img {
-    height: 250px;
-    transform: rotate(0deg);
-    transition: transform 500ms ease; }
-    .banner_overlay img:hover {
-      transform: rotate(-5deg); }
-
+@media (max-width: 1300px) {
+  .banner_overlay {
+    position: fixed;
+    display: flex; }
+    .banner_overlay img {
+      height: 250px;
+      transform: rotate(0deg);
+      transition: transform 500ms ease; }
+      .banner_overlay img:hover {
+        transform: rotate(-5deg); } }
+@media (max-width: 800px) {
+  .banner_overlay {
+    position: fixed;
+    display: none; }
+    .banner_overlay img {
+      height: 250px;
+      transform: rotate(0deg);
+      transition: transform 500ms ease; }
+      .banner_overlay img:hover {
+        transform: rotate(-5deg); } }
 .animate {
   animation: bounce 300ms 600ms; }
 
@@ -488,7 +509,7 @@ textarea {
   border-radius: 2pt;
   box-shadow: 2px 2px 2px rgba(1, 1, 1, 0.7);
   max-width: 600px; }
-  .content h2 {
+  .content h2, .content h1 {
     text-align: center; }
   .content span {
     font-weight: 900; }
@@ -503,20 +524,35 @@ textarea {
     .content .content-link:active, .content .content-link:visited {
       color: black; }
 
-.logos {
-  background: white;
-  padding: 35px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
-  .logos img {
-    width: 200px; }
-  .logos a {
-    transform: scale(1);
-    transition: transform 200ms ease; }
-    .logos a:hover {
-      transform: scale(1.1); }
-
+@media (max-width: 1300px) {
+  .logos {
+    background: white;
+    padding: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .logos img {
+      width: 200px; }
+    .logos a {
+      transform: scale(1);
+      transition: transform 200ms ease; }
+      .logos a:hover {
+        transform: scale(1.1); } }
+@media (max-width: 800px) {
+  .logos {
+    background: white;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+    .logos img {
+      width: 200px; }
+    .logos a {
+      transform: scale(1);
+      transition: transform 200ms ease; }
+      .logos a:hover {
+        transform: scale(1.1); } }
 .footer {
   position: absolute;
   background-color: #333333;
