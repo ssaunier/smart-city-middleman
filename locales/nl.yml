@@ -1,9 +1,37 @@
 ---
 nl:
   header: "Ticket voor Le Wagon - Toegang tot de toekomst"
-  sub_header: "Een coding bootcamp van 9 weken, aangeboden aan 5 jonge Brusselaars"
-  paragraph_1: "Ben je tussen 18 en 35 jaar oud? Heb je een passie voor nieuwe technologie? Wil je leren coderen en een web app maken van A tot Z? Misschien droom je er van om van programmeren een job te maken? Of om te werken in een startup?"
-  paragraph_2: "Het Brussels Hoofdstedelijk Gewest geeft de kans aan 5 jonge Brusselaars die werkzoekend zijn of beperkte middelen hebben om samen met 20 jonge ondernemers uit heel de wereld deel te nemen aan het Le Wagon Brussels Coding Bootcamp dit najaar. Deze bootcamp is een intensieve, full-time opleiding waarin je web applicaties leert ontwikkelen (HTML, CSS, JavaScript, SQL, Ruby, Ruby on Rails,...). De opleiding loopt van 17 oktober tot 16 december 2016."
-  paragraph_3: "Aan het einde van de opleiding kan je zelf applicaties ontwikkelen voor elk project dat je wil uitbouwen. Je wordt ondergedompeld in een stimulerende internationale en ondernemende omgeving. Je leert nieuwe vaardigheden die veel gevraagd worden op de arbeidsmarkt en je kan een stage doen van (minstens!) 3 maand in een startup in het Brussels Gewest."
-  paragraph_4: "Als je hulp nodig hebt bij je kandidatuur, contacteer dan Jan (jan@maksvzw.org), van Maks vzw. Jan en de mensen van Maks vzw kunnen jou begeleiden tijdens het selectieproces zodat je een betere kans hebt."
-  closing_statement: "Je kan je kandidaat stellen tot 30 september 2016 om 23u59! Mis deze trein niet!"
+  sub_header: "Een coding bootcamp van 9 weken,<br>aangeboden aan 5 jonge Brusselaars"
+  paragraph_1: |
+    Ben je <span>tussen 18 en 35 jaar oud</span>?<br>
+    Heb je een passie voor <span>nieuwe technologie</span>?<br>
+    Wil je leren <span>coderen en een web app maken</span> van A tot Z?<br>
+    Misschien droom je er van om <span>van programmeren een job te maken</span>?<br>
+    Of om te werken in een startup?
+  paragraph_2: |
+    Het Brussels Hoofdstedelijk Gewest geeft de kans aan <span>5 jonge Brusselaars</span> die
+    werkzoekend zijn of beperkte middelen hebben om samen met <span>20 jonge ondernemers</span>
+    uit heel de wereld deel te nemen aan het <a href="https://www.lewagon.com/brussels"
+    class="content-link" target="_blank">Le Wagon Brussels</a> Coding Bootcamp dit
+    najaar. Deze bootcamp is een <span>intensieve, full-time opleiding</span> waarin je web
+    applicaties leert ontwikkelen (HTML, CSS, JavaScript, SQL, Ruby, Ruby on Rails,...).
+    De opleiding loopt van <span>17 oktober tot 16 december 2016</span>.
+  paragraph_3: |
+    Aan het einde van de opleiding kan je <span>zelf applicaties ontwikkelen</span> voor elk
+    project dat je wil uitbouwen. Je wordt ondergedompeld in een <span>stimulerende
+    internationale en ondernemende omgeving</span>. Je leert <span>nieuwe vaardigheden die veel
+    gevraagd worden op de arbeidsmarkt</span> en je kan een stage doen van (minstens!)
+    3 maand in een startup in het Brussels Gewest.
+  paragraph_4: |
+    Als je hulp nodig hebt bij je <span>kandidatuur</span>, contacteer dan Jan
+    (<a href="mailto:jan@maksvzw.org" class="content-link" target="_blank">
+    (jan@maksvzw.org)</a>), van <a href="http://www.maksvzw.org/" class="content-link"
+    target="_blank">Maks vzw</a>. Jan en de mensen van Maks vzw kunnen jou begeleiden
+    tijdens het <span>selectieproces</span> zodat je een betere kans hebt.
+  closing_statement: |
+    Verleid?! Verlies dan geen seconde en stel je dan hieronder kandidaat!<br>
+    Je kan je kandidaat stellen tot <span>30 september 2016 om 23u59</span>!<br>
+    Mis deze trein niet!
+  disclaimer: |
+    Een initiatief gesteund door de Staatssecretaris van het Brussels Hoofdstedelijk
+    Gewest<br>belast met Digitalisering en Gelijkekansenbeleid

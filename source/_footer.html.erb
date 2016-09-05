@@ -1,11 +1,24 @@
-<div class="logos">
-  <% link_to "https://www.lewagon.com/" do %>
-    <%= image_tag 'lewagon.png' %>
-  <% end %>
-  <% link_to "http://smartcity.brussels/" do %>
-    <%= image_tag 'bxl.png' %>
-  <% end %>
-  <% link_to "http://www.maksvzw.org/" do %>
-    <%= image_tag 'maks.png' %>
-  <% end %>
+<div>
+  <div class="logos">
+    <% link_to "http://be.brussels/about-the-region" do %>
+      <%= image_tag 'logo.brussels.png' %>
+    <% end %>
+    <% link_to "https://www.lewagon.com/" do %>
+      <%= image_tag 'lewagon2.png' %>
+    <% end %>
+    <% link_to "http://smartcity.brussels/" do %>
+      <%= image_tag 'bru_smartcity2.png' %>
+    <% end %>
+    <% link_to "http://www.maksvzw.org/" do %>
+      <%= image_tag 'maks.jpg' %>
+    <% end %>
+  </div>
+  <div class="disclaimer">
+    <p>
+      <%= I18n.t(:disclaimer) %>
+    </p>
+    <p>
+      &copy; 2016 - Made by Le Wagon Brussels with love <i class="fa fa-heart-o" aria-hidden="true"></i>
+    </p>
+  </div>
 </div>

@@ -3,7 +3,7 @@ title: Smart City Scholarship
 ---
 <div class="language-select">
   <div class="country">
-  <% link_to "/smart-city-middleman" do %>
+    <% link_to "/en/index.html" do %>
     <%= image_tag 'united-kingdom.png' %>
     <% end %>
   </div>
@@ -28,7 +28,7 @@ title: Smart City Scholarship
 
 <div class="content-background">
   <div class="content">
-    <h1>
+    <h1 class="main-title">
       <%= I18n.t(:header) %>
     </h1>
     <h2>
@@ -42,18 +42,17 @@ title: Smart City Scholarship
     </p>
     <p>
      <%= I18n.t(:paragraph_3) %>
-   </p>
-   <p>
-    <%= I18n.t(:paragraph_4) %>
-  </p>
-  <p>
-    <%= I18n.t(:closing_statement) %>
-  </p>
-  <div class="call-to-action" id="apply">
-    <%= link_to "Apply now!", "https://www.lewagon.com/apply/brussels" %>
+    </p>
+    <p>
+      <%= I18n.t(:paragraph_4) %>
+    </p>
+    <p>
+      <%= I18n.t(:closing_statement) %>
+    </p>
+    <div class="call-to-action" id="apply">
+      <%= link_to "Apply now!", "https://www.lewagon.com/apply/brussels" %>
+    </div>
   </div>
 </div>
-</div>
-
 
 <%= partial 'footer' %>
