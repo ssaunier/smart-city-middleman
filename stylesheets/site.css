@@ -444,7 +444,7 @@ textarea {
 .content {
   width: 80vw;
   margin: 50px auto;
-  text-align: left; }
+  text-align: justify; }
 
 .content {
   background: white;
