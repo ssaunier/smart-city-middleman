@@ -64,10 +64,15 @@ $blue: #bce6f7;
   span {
     font-weight: 900;
   }
+
+  .main-title {
+    color: red;
+  }
+
   .content-link {
     color: black;
     text-decoration: none;
-    border-bottom: 4px solid $blue;
+    border-bottom: 3px solid $blue;
     background-color: none;
     transition: background-color 200ms ease;
     &:hover {
@@ -75,46 +80,6 @@ $blue: #bce6f7;
     }
     &:active, &:visited {
       color: black;
-    }
-  }
-}
-@media (max-width: 1300px) {
-  .logos {
-    background: white;
-    padding: 35px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    img {
-      width: 200px;
-    }
-    a {
-      transform: scale(1);
-      transition: transform 200ms ease;
-      &:hover {
-        transform: scale(1.1);
-      }
-    }
-  }
-}
-
-@media (max-width: 800px) {
-  .logos {
-    background: white;
-    padding: 35px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    img {
-      width: 200px;
-    }
-    a {
-      transform: scale(1);
-      transition: transform 200ms ease;
-      &:hover {
-        transform: scale(1.1);
-      }
     }
   }
 }
