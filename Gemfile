@@ -10,6 +10,7 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
 # Middleman Gems
 gem 'middleman-sprockets'
+gem 'font-awesome-sass', '4.5.0'
 gem 'jquery-middleman'
 gem 'middleman', '>= 3.4'
 # gem 'middleman-livereload'
