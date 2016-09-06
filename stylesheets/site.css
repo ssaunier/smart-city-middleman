@@ -382,7 +382,7 @@ textarea {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url(/smart-city-middleman/images/background.png);
+  background: url(../images/background.png);
   background-size: cover;
   z-index: -1; }
 
@@ -514,8 +514,8 @@ textarea {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("/assets/font-awesome/fontawesome-webfont.eot?v=4.5.0");
-  src: url("/assets/font-awesome/fontawesome-webfont.eot?v=4.5.0#iefix") format("embedded-opentype"), url("/assets/font-awesome/fontawesome-webfont.woff2?v=4.5.0") format("woff2"), url("/assets/font-awesome/fontawesome-webfont.woff?v=4.5.0") format("woff"), url("/assets/font-awesome/fontawesome-webfont.ttf?v=4.5.0") format("truetype"), url("/assets/font-awesome/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular") format("svg");
+  src: url("../assets/font-awesome/fontawesome-webfont.eot?v=4.5.0");
+  src: url("../assets/font-awesome/fontawesome-webfont.eot?v=4.5.0#iefix") format("embedded-opentype"), url("../assets/font-awesome/fontawesome-webfont.woff2?v=4.5.0") format("woff2"), url("../assets/font-awesome/fontawesome-webfont.woff?v=4.5.0") format("woff"), url("../assets/font-awesome/fontawesome-webfont.ttf?v=4.5.0") format("truetype"), url("../assets/font-awesome/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 .fa {
