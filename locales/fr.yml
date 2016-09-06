@@ -4,9 +4,9 @@ fr:
   sub_header: "Un coding bootcamp de 9 semaines<br>offert à 5 jeunes Bruxellois"
   paragraph_1: |
     Tu as <span>entre 18 et 35 ans</span>?<br>
-    Tu es passionné par le <span>monde du web et des nouvelles technologies</span>?<br>
-    Tu souhaites apprendre à <span>coder</span> et pouvoir <span>créer une application</span>
-    de A à Z?<br>
+    Tu es passionné par <span>le web et les nouvelles technologies</span>?<br>
+    Tu souhaites apprendre à <span>coder</span> et pouvoir <span>créer des applications
+    web</span> de A à Z?<br>
     Tu rêves peut-être même d’<span>en faire ton métier</span>?
     De travailler <span>dans une startup</span>?
   paragraph_2: |
@@ -24,7 +24,8 @@ fr:
     A la clef? La capacité de <span>développer tes propres applications</span>
     pour tous les projets qui te tiennent à coeur, une immersion au sein d’un
     <span>environnement international et entrepreneurial stimulant</span>
-    (à <a href="http://co-station.com/" class="content-link" target="_blank">Co.Station</a>),
+    (à <a href="http://co-station.com/" class="content-link" target="_blank">Co.Station</a>,
+    en plein coeur de Bruxelles),
     des <span>compétences tech archi-demandées sur le marché de l’emploi</span>,
     et (au minimum!) un stage de 3 mois dans une startup de la Région bruxelloise.
   paragraph_4: |
