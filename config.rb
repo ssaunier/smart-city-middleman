@@ -11,6 +11,5 @@ configure :development do
 end
 activate :sprockets
 
-configure :build do
-  set :http_prefix, "/smart-city-middleman"
-end
+activate :relative_assets
+set :relative_links, true
